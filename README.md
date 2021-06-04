@@ -12,3 +12,4 @@ Com intuito de revisar a arquitetura SMACSS e as técnicas de CSS Grid Layout, r
 
 - [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
 - [SMACSS](http://smacss.com/)
+- [SASS](https://sass-lang.com/)
