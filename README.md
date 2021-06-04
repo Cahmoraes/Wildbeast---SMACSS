@@ -1,7 +1,7 @@
 <h3 align="center">
   <a href="https://cahmoraes.github.io/Flexbox-Viewer/">Wildbeast - SMACSS</a>
 </h3>
----
+
 <p align="center">
   <img src="https://github.com/Cahmoraes/Wildbeast-SMACSS/blob/main/src/img/examples/wildbeast.gif" alt="Wildbeast - SMACSS">
 </p>
