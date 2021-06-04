@@ -1,0 +1,35 @@
+@use '../1-base/variables'
+@use '../1-base/mixins'
+
+$component-name: c-sidenav
+
+.#{$component-name}
+  
+  @include mixins.mobile
+    display: flex
+
+  img
+    border-radius: 5px
+
+  a
+    display: block
+    min-width: 60px
+    width: 100%
+    max-width: 110px
+    margin: 0 auto 30px auto
+    background: white
+    padding: 20px
+    border-radius: 5px
+    box-shadow: 5px 5px 15px 0px rgb(44 44 44 / 15%)
+    transition: 0.1s ease-out
+
+    @include mixins.mobile
+      min-width: 80px
+      margin: 5px 50px 5px 0
+
+    &:hover
+      background: variables.$secondary-color
+
+  li
+    @include mixins.mobile
+      margin: 10px

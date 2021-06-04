@@ -1,0 +1,20 @@
+@use '../1-base/mixins'
+@use '../1-base/variables'
+
+$component-name: c-atributos
+
+.#{$component-name}
+  align-self: start
+  padding: 30px
+  border-radius: 5px
+  box-shadow: 5px 5px 15px 0px rgb(44 44 44 / 15%)
+  @include mixins.gradient
+
+  li
+    color: white
+    font-family: Courier, monospace
+    font-size: 1.125em
+    padding: 15px
+
+  li + li
+    border-top: 2px solid variables.$secondary-color

@@ -1,0 +1,10 @@
+@use '../1-base/mixins'
+
+$layout-name: l-anuncios
+
+.#{$layout-name}
+  grid-area: anuncios
+  @include mixins.padding-container
+  
+  div + div
+    margin-top: 30px

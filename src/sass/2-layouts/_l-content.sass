@@ -1,0 +1,43 @@
+@use '../1-base/variables'
+@use '../1-base/mixins'
+
+$layout-name: l-content
+
+.#{$layout-name}
+  max-width: 900px
+  margin: 0 auto
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  grid-template-rows: minmax(min-content, max-content)
+  gap: 30px
+  @include mixins.padding-container
+  @include mixins.mobile
+    grid-template-columns: 1fr
+
+  &__titulo
+    color: variables.$secondary-color
+
+    h1
+      font-size: 3.75rem
+      line-height: 1
+      font-weight: 700
+
+    span
+      font-size: 0.875rem
+      font-style: italic
+
+  &__caracteristicas
+    display: flex
+    align-items: start
+
+    div + div
+      margin-left: 30px
+
+  &__destaque
+    font-size: 0.875rem
+    color: variables.$secondary-color
+    max-width: 16rem
+
+  &__wolf_1
+    grid-row: span 2
+    align-self: end
