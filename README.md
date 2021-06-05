@@ -1,5 +1,5 @@
 <h3 align="center">
-  <a href="https://github.com/Cahmoraes/Wildbeast-SMACSS/">Wildbeast - SMACSS</a>
+  <a href="https://cahmoraes.github.io/Wildbeast-SMACSS/">Wildbeast - SMACSS</a>
 </h3>
 
 <p align="center">
