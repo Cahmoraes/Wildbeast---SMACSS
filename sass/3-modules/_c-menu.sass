@@ -1,0 +1,13 @@
+@use '../1-base/mixins'
+
+$component-name: c-menu
+
+.#{$component-name}
+  display: flex
+  @include mixins.mobile(2)
+    margin-top: 20px
+
+  a
+    @include mixins.menu-item
+    @include mixins.mobile(2)
+      padding: 6px

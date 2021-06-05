@@ -1,0 +1,17 @@
+@use '../1-base/mixins'
+
+.u-col-span-2
+  grid-column: span 2
+  @extend %mobile-adjustment
+
+.u-row-span-2
+  grid-column: span 2
+  @extend %mobile-adjustment
+
+.u-col-expand
+  grid-column: 1 / -1
+  @extend %mobile-adjustment
+
+%mobile-adjustment
+  @include mixins.mobile
+    grid-column: auto

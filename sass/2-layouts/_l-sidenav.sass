@@ -1,0 +1,14 @@
+@use '../1-base/variables'
+@use '../1-base/mixins'
+
+$layout-name: l-sidenav
+
+.#{$layout-name}
+  grid-area: sidenav
+  background: #fafbfc
+  
+  @include mixins.padding-container
+  @include mixins.mobile
+    overflow-x: auto
+    padding: 0px 30px 0px 15px
+

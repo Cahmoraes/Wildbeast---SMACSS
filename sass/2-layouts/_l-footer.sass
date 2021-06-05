@@ -1,0 +1,12 @@
+@use '../1-base/mixins'
+
+$layout-name: l-footer
+
+.#{$layout-name}
+  grid-area: footer
+  @include mixins.gradient
+
+  p
+    color: #FFF
+    text-align: center
+    @include mixins.padding-container
